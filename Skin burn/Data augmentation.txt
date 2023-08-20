@@ -1,0 +1,26 @@
+Data augmentation parameters:
+
+datagen = ImageDataGenerator(
+        fill_mode='nearest'
+        rescale=1./255,
+        rotation_range=10, # rotation
+        width_shift_range=0.2, # horizontal shift
+        height_shift_range=0.2, # vertical shift
+        zoom_range=0.2, # zoom
+        horizontal_flip=True, # horizontal flip
+	  vertical_flip=True,
+        brightness_range=[0.2,1.2]) # brightness
+
+
+
+rotation_range=20,
+		zoom_range=0.15,
+		width_shift_range=0.2,
+		height_shift_range=0.2,
+		shear_range=0.15,
+		horizontal_flip=True,
+		fill_mode="nearest")
+
+
+
+        
